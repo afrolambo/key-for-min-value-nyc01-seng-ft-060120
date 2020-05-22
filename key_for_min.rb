@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   min_value = 100 
  name_hash.each do |name, num|
-   if :name < min_value 
+   if "#{name}" < min_value 
    min_value = :name
  end 
  min_value
